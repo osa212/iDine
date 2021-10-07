@@ -11,6 +11,11 @@
 		8EBCD064270DB9B70091DBA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCD063270DB9B70091DBA9 /* ContentView.swift */; };
 		8EBCD066270DB9B90091DBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBCD065270DB9B90091DBA9 /* Assets.xcassets */; };
 		8EBCD069270DB9B90091DBA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBCD068270DB9B90091DBA9 /* Preview Assets.xcassets */; };
+		8EBCD070270DBD6A0091DBA9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCD06F270DBD6A0091DBA9 /* Helper.swift */; };
+		8EBCD072270DBD9F0091DBA9 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EBCD071270DBD9F0091DBA9 /* menu.json */; };
+		8EBCD075270DBDE90091DBA9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCD073270DBDE90091DBA9 /* Order.swift */; };
+		8EBCD076270DBDE90091DBA9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCD074270DBDE90091DBA9 /* Menu.swift */; };
+		8EBCD078270F0B9F0091DBA9 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBCD077270F0B9F0091DBA9 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8EBCD063270DB9B70091DBA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EBCD065270DB9B90091DBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EBCD068270DB9B90091DBA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EBCD06F270DBD6A0091DBA9 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
+		8EBCD071270DBD9F0091DBA9 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
+		8EBCD073270DBDE90091DBA9 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
+		8EBCD074270DBDE90091DBA9 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
+		8EBCD077270F0B9F0091DBA9 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				8EBCD061270DB9B70091DBA9 /* iDineApp.swift */,
 				8EBCD063270DB9B70091DBA9 /* ContentView.swift */,
+				8EBCD077270F0B9F0091DBA9 /* ItemRow.swift */,
+				8EBCD06F270DBD6A0091DBA9 /* Helper.swift */,
+				8EBCD074270DBDE90091DBA9 /* Menu.swift */,
+				8EBCD073270DBDE90091DBA9 /* Order.swift */,
+				8EBCD071270DBD9F0091DBA9 /* menu.json */,
 				8EBCD065270DB9B90091DBA9 /* Assets.xcassets */,
 				8EBCD067270DB9B90091DBA9 /* Preview Content */,
 			);
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBCD072270DBD9F0091DBA9 /* menu.json in Resources */,
 				8EBCD069270DB9B90091DBA9 /* Preview Assets.xcassets in Resources */,
 				8EBCD066270DB9B90091DBA9 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +155,10 @@
 			files = (
 				8EBCD064270DB9B70091DBA9 /* ContentView.swift in Sources */,
 				8EBCD062270DB9B70091DBA9 /* iDineApp.swift in Sources */,
+				8EBCD075270DBDE90091DBA9 /* Order.swift in Sources */,
+				8EBCD078270F0B9F0091DBA9 /* ItemRow.swift in Sources */,
+				8EBCD070270DBD6A0091DBA9 /* Helper.swift in Sources */,
+				8EBCD076270DBDE90091DBA9 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

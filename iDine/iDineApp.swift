@@ -2,7 +2,7 @@
 //  iDineApp.swift
 //  iDine
 //
-//  Created by Sargylana Osipova on 06.10.2021.
+//  Created by osa on 06.10.2021.
 //
 
 import SwiftUI

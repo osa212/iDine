@@ -2,15 +2,35 @@
 //  ContentView.swift
 //  iDine
 //
-//  Created by Sargylana Osipova on 06.10.2021.
+//  Created by osa on 06.10.2021.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    let menu = Bundle.main.decode([MenuSection].self, from: "menu.json")
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(menu) { section in
+                    Section {
+                        ForEach(section.items) { item in
+                            ItemRow(item: item)
+                        }
+                    } header: {
+                        Text(section.name)
+                    }
+
+                    
+                    
+                }
+                
+            }
+            .navigationTitle("Menu")
+            .listStyle(.grouped)
+        }
+        
     }
 }
 
